@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-4.54545455%" x2="50%" y2="102.3725%" id="linearGradient-1">
+            <stop stop-color="#7CC0FF" offset="0%"></stop>
+            <stop stop-color="#FFA3D7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico_fb">
+            <g id="Group-20">
+                <circle id="placeholder" stroke="url(#linearGradient-1)" stroke-width="2" opacity="0.300000012" cx="20" cy="20" r="19"></circle>
+                <path d="M21.0492484,27.9793457 L21.0492484,21.1465404 L23.3427057,21.1465404 L23.6861184,18.4836749 L21.0492484,18.4836749 L21.0492484,16.7836036 C21.0492484,16.0126426 21.2633336,15.4872581 22.3688815,15.4872581 L23.7789549,15.4866419 L23.7789549,13.1049537 C23.535088,13.0725022 22.6980538,13 21.7242296,13 C19.6912073,13 18.2993452,14.240959 18.2993452,16.5198844 L18.2993452,18.4836749 L16,18.4836749 L16,21.1465404 L18.2993452,21.1465404 L18.2993452,27.9793457 L21.0492484,27.9793457 Z" id="facebook-icon" fill="url(#linearGradient-1)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,156 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+	
+	
+}
+
+@media only screen and (max-width: 530px) {
+
+
+/**/
+
+.map.model {
+    width: 300px;
+    padding: 10px !important;
+}
+.map-popup iframe {
+    margin: 40px 10px 0;
+}
+.model {
+    width: 300px;
+}
+.model-heading h4 {
+    font-size: 18px;
+    padding: 10px 0 0;
+    line-height: 30px;
+}
+.model-container input {
+    margin: 15px 4%;
+    width: 90%;
+}
+.share.model button {
+    right: 8%;
+}
+
+.sponsor.model {
+    width: 300px;
+    height: 580px;
+}
+
+.sponsor.model p {
+    padding: 0 20px;
+}
+
+.sponsor.model label {
+    padding: 0 15px;
+}
+.sponsor.model input {
+    width: 90%;
+}
+.sponsor.model a.submit {
+    padding: 10px 18%;
+}
+
+
+
+
+}
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 480px) { 
+
+
+
+
+
+.full-box h3 {
+    font-size: 15px;
+}
+
+
+.product h3 {
+    font-size: 15px;
+}
+.product p {
+    width: auto;
+    font-size: 13px;
+}
+.product .price span {
+    padding-right: 5px;
+    font-size: 12px;
+}
+.product img {
+    height: 120px;
+}
+
+.col-3.fbd {
+    display: none;
+}
+
+.footer-menu li {
+    width: 48%;
+}
+.footer-menu {
+    text-align: center;
+}
+p.or.smd {
+    display: block;
+}
+.col-2.dsg p {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 328px) { 
+.product img {
+    height: 138px;
+}
+}
+
+
+
+

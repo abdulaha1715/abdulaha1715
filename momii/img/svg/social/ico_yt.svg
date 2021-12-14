@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_yt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-4.54545455%" x2="50%" y2="102.3725%" id="linearGradient-1">
+            <stop stop-color="#7CC0FF" offset="0%"></stop>
+            <stop stop-color="#FFA3D7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico_yt">
+            <g id="Group-21">
+                <circle id="placeholder" stroke="url(#linearGradient-1)" stroke-width="2" opacity="0.300000012" cx="20" cy="20" r="19"></circle>
+                <path d="M26.6092079,16.71875 C26.4797896,16.0314941 25.8631503,15.5310059 25.147544,15.3747559 C24.0766721,15.15625 22.0947978,15 19.9505167,15 C17.8075039,15 15.7939099,15.15625 14.721769,15.3747559 C14.0074317,15.5310059 13.3895234,15.9997559 13.260105,16.71875 C13.1294183,17.5 13,18.59375 13,20 C13,21.40625 13.1294183,22.5 13.2918254,23.28125 C13.4225121,23.9685059 14.0391518,24.4689941 14.7534894,24.6252441 C15.8903391,24.84375 17.8392243,25 19.9835054,25 C22.1277869,25 24.0766721,24.84375 25.2135219,24.6252441 C25.9278591,24.4689941 26.5444987,24.0002441 26.6751858,23.28125 C26.8046038,22.5 26.9670109,21.3745119 27,20 C26.9340221,18.59375 26.771615,17.5 26.6092079,16.71875 Z M18,22 L18,18 L22,20 L18,22 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_pay_amx</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-4.54545455%" x2="50%" y2="102.3725%" id="linearGradient-1">
+            <stop stop-color="#7CC0FF" offset="0%"></stop>
+            <stop stop-color="#FFA3D7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico_pay_amx" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M4.8,7 C2.70406288,7 1,8.619358 1,10.6111111 L1,29.3888889 C1,31.3806427 2.70406288,33 4.8,33 L35.2,33 C37.2959379,33 39,31.3806427 39,29.3888889 L39,10.6111111 C39,8.619358 37.2959379,7 35.2,7 L4.8,7 Z M7.88587732,17 L10.0442225,17 L12.8815977,22.7794118 L12.8815977,17 L15.4279601,17 L17.4165478,21.0367647 L19.4051355,17 L22,17 L22,23 L20.3751783,23 L20.3751783,18.6102941 L18.168331,23 L16.6890157,23 L14.5064194,18.5441176 L14.5064194,23 L11.232525,23 L10.6019971,21.6764706 L7.35235378,21.6764706 L6.72182596,23 L5,23 L7.88587732,17 Z M23,17 L29.336,17 L31.112,18.8681319 L32.96,17 L35,17 L32.12,19.9230769 L35,23 L32.96,23 L31.064,21 L29.12,22.978022 L23,22.978022 L23,17 Z M8.97560976,18 L8,20 L10,20 L8.97560976,18 Z M25,18 L25,19.2993631 L28.8947368,19.2993631 L28.8947368,20.6242038 L25,20.6242038 L25,22 L29.0789474,22 L31,19.910828 L29.2894737,18.0254777 L25,18 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
