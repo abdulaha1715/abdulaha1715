@@ -16,7 +16,7 @@
 /* 1. Theme default css */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
 
 body {
     font-family: 'Lato', sans-serif;
@@ -206,6 +206,7 @@ a.nav-link.btn.btn-primary.login-btn {}
     font-size: 16px;
     padding: 8px 12px;
     outline: none;
+    margin-left: 5px;
 }
 
 .bar-btns .btn i {
@@ -295,9 +296,453 @@ button.btn.btn-primary {
     border: 1px solid transparent;
 }
 
+
+/* page head */
+
+.page-head {
+    color: #fff;
+    background: #593AF0;
+    /*padding: 105px 0;*/
+    height: 250px;
+}
+
+.page-head h2 {
+    font-size: 37px;
+    line-height: 43px;
+    font-family: serif;
+    font-weight: 600;
+    margin-top: 95px;
+}
+
+.left-svg-img {
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+    background-size: 170px !important;
+    background-position-x: 27px !important;
+    height: 100%;
+}
+
+.contact-content {
+    padding: 80px 0;
+}
+
+.contact-content h2 {
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: serif;
+}
+
+.contact-content p {
+    color: #162a3e;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: serif;
+    margin-bottom: 20px;
+}
+
+.contact-content li {
+    margin-bottom: 15px;
+}
+
+.contact-content li a {
+    color: #162a3e;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contact-content li a i {
+    color: #593AF0;
+    margin-right: 5px;
+}
+
+.contact-form {}
+
+.contact-form .form-control {
+    border-radius: 0;
+}
+
+.contact-form input.btn {
+    background: #D61BD3;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: serif;
+}
+
+.contact-form input.btn:hover {
+    border-color: #e350e1;
+    background: #e350e1;
+}
+
+
+/* faq */
+
+section.faqs {
+    padding: 80px 0;
+}
+
+.play-text h2, 
+section.faqs h2 {
+    font-size: 37px;
+    line-height: 43px;
+    font-weight: 900;
+    color: #162a3e;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: serif;
+    margin: 0 0 10px 0;
+}
+
+section.faqs h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-family: serif;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+}
+
+section.faqs p {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: serif;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+}
+
+section.faqs .faq {
+    padding-right: 90px;
+    margin-bottom: 40px;
+}
+
+section.payment-faq {
+    background: #593AF0;
+}
+
+.payment-text-btn {
+    padding: 0 20px;
+    color: #fff;
+}
+
+.payment-content-block {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.payment-text-btn h4 {
+    font-size: 37px;
+    font-weight: 900;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.payment-text-btn .btn {
+    font-size: 25px;
+    line-height: 38px;
+    padding: 8px 65px;
+    border: 2px solid transparent;
+    border-radius: 0;
+    background: #D61BD3;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: 600;
+}
+
+
+/* how to play */
+
+section.how-to-play {
+    padding-top: 90px;
+}
+
+.play-text ul {
+    margin-top: 20px;
+}
+
+.play-text li span {font-weight: 700;}
+
+.play-text li {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    color: #162a3e;
+    font-family: serif;
+}
+
+.play-text button.btn {
+    margin: 30px 0;
+    font-size: 18px;
+    padding: 8px 20px;
+}
+
+.play-text p a {
+    color: #424b5a;
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.play-text p a i {
+    padding: 0 10px;
+}
+
+
+/* dashboard */
+
+a.navbar-brand {
+    width: 80%;
+    display: inline-block;
+    margin: 0;
+}
+
+.dropdown.notification.noti-mobile {
+    width: 20%;
+    display: inline;
+    cursor: pointer;
+}
+
+.dropdown-menu.show {
+    transform: translate3d(10px, 28px, 0px) !important;
+    width: 300px;
+    height: 350px;
+    overflow-x: scroll;
+    right: 0 !important;
+    left: auto !important;
+}
+
+p.notification-item {
+    white-space: normal !important;
+}
+
+.loged-in-user {
+}
+
+.loged-in-user ul {}
+
+.loged-in-user ul li {
+    display: inline-block;
+    padding: 0 6px;
+    align-items: center;
+}
+
+.loged-in-user ul li a.label-link {
+    font-size: 19px;
+    font-weight: 600;
+    color: #162a3e;
+}
+
+a#navbarDropdown {
+    color: #162a3e;
+    padding: 0 0px;
+}
+
+.dropdown-menu.user.show {
+    height: unset;
+    overflow-x: auto;
+    width: 180px;
+}
+
+
+/* promotions */
+
+section.referral-stat {
+    padding: 20px 0 0;
+}
+
+.start-box {
+    border: 1px solid #162a3e;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+.start-box h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.start-box h3 span {
+    font-weight: 600;
+}
+
+.start-box p {
+    font-size: 20px;
+    line-height: 24px;
+    color: #162a3e;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+section.promotion-main-content {
+    padding: 80px 0 0;
+}
+
+.promo-code h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+.promo-code input#promocode {
+    border-radius: 0;
+}
+
+.promo-code button.btn {
+    padding: 6px 0;
+    font-size: 21px;
+}
+
+.referral {}
+
+.referral-stat h2,
+.levels h2,
+.referral h2 {
+    font-size: 37px;
+    line-height: 43px;
+    font-weight: 900;
+    color: #162a3e;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.copy-referral-code h3,
+.referral h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 300;
+    margin-bottom: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.levels p,
+.copy-referral p,
+.referral p {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.copy-referral-code {
+    background: #593AF0;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+input#referralurl {
+    height: 65px;
+    border-radius: 2px;
+}
+
+.promote i {
+    font-size: 38px;
+    margin-top: 12px;
+}
+
+.levels p span {
+    font-weight: 900;
+}
+
+button.btn.bg-white {
+    font-size: 28px;
+    color: #D61BD3;
+}
+
+.label-table {}
+
+.label-table th {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.label-table thead th {
+    border: none;
+}
+
+.label-table .table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+
+}
+
+.label-table .table tr {
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.label-table .table thead tr {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.label-table .table th {
+    border: none;
+    padding: 0 0 0 15px;
+}
+
+.label-table .table td {
+    border: 1px solid #dee2e6;
+    border-right: none;
+    border-left: 0;
+}
+
+.label-table .table tr td:first-child {
+    border-left: 1px solid #dee2e6;
+    background: #593af0 !important;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.label-table .table tr td:last-child {
+    border-right: 1px solid #dee2e6;
+}
+
+.label-table .table tr th:nth-child(2),
+.label-table .table tr td:nth-child(2) {
+    padding-left: 30px;
+}
+
+.label-table .table tr.current-level td:first-child {
+    background: #FFC107 !important;
+}
+
+tr.current-level small {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* index footer  */
 
-footer {
+footer.index-footer {
     color: #fff;
     background: #593af0;
     padding: 20px 0;
@@ -317,17 +762,66 @@ footer .top-text h3 {
 
 .copyright-text p {
     color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 
 
+/* full site footer */
 
+footer.full-site-c-footer {
+    color: #fff;
+    background: #593AF0;
+    padding: 40px 0 20px;
+}
 
+footer p {
+    color: #fff;
+}
 
+a.footer-logo img {
+    margin-bottom: 18px;
+}
 
+.logo-content p {
+    font-size: 15px;
+    line-height: 17px;
+}
 
+.footer-menu li {
+}
 
+.footer-menu li a {
+    font-size: 18px;
+    line-height: 30px;
+}
 
+.footer-menu li a:hover {
+    color: #D61BD3;    
+}
+
+.footer-social-menu {}
+
+.footer-social-menu h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-social-menu li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.footer-social-menu a {
+    font-size: 44px;
+    color: #fb66f9;
+}
+
+.footer-social-menu a:hover {
+    color: #ed2cea;
+}
 
 
 
