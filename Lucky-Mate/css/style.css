@@ -92,7 +92,7 @@ h4 a,
 h5 a,
 h6 a,
 a {
-    color: #fff;
+    /*color: #fff;*/
 }
 ul {
     margin: 0px;
@@ -156,15 +156,24 @@ ul, ol, li {
 /* 2. Header */
 
 .header-navbar {
-    padding: 8px 0;
+    padding: 12px 0;
     align-items: center;
     box-shadow: 0px 3px 6px #00000029;
+    position: relative;
+}
+
+button.navbar-toggler.collapsed {
+    display: none;
+}
+
+button.navbar-toggler {
+    color: #000;
+    padding: 0;
 }
 
 .item-center-inl {
     align-items: center;
 }
-
 
 .menu-items {
     text-align: center;
@@ -179,12 +188,13 @@ ul, ol, li {
     padding: 0 10px;
 }
 
+.responsive-nav ul li a,
 .menu-items ul li a {
     color: #162a3e;
     font-size: 19px;
     letter-spacing: 0px;
 }
-
+.responsive-nav .nav-active a,
 .menu-items .nav-active a {
     color: #162a3e;
     font: Bold 19px Lato;
@@ -207,6 +217,7 @@ a.nav-link.btn.btn-primary.login-btn {}
     padding: 8px 12px;
     outline: none;
     margin-left: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .bar-btns .btn i {
@@ -239,6 +250,7 @@ section.wel-content-ind {
     line-height: 46px;
     color: #162a3e;
     margin: 10px 0 20px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .middle-content p a {
@@ -262,6 +274,7 @@ section.wel-content-ind {
     font-size: 22px;
     color: #fff;
     font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .bg-full-right .btn-group a {
@@ -307,9 +320,9 @@ button.btn.btn-primary {
 }
 
 .page-head h2 {
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 37px;
     line-height: 43px;
-    font-family: serif;
     font-weight: 600;
     margin-top: 95px;
 }
@@ -332,7 +345,7 @@ button.btn.btn-primary {
     line-height: 43px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-family: serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .contact-content p {
@@ -340,7 +353,7 @@ button.btn.btn-primary {
     font-size: 20px;
     line-height: 24px;
     font-weight: 300;
-    font-family: serif;
+    font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 20px;
 }
 
@@ -371,7 +384,7 @@ button.btn.btn-primary {
     border: 2px solid transparent;
     border-radius: 0;
     text-transform: uppercase;
-    font-family: serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .contact-form input.btn:hover {
@@ -394,14 +407,14 @@ section.faqs h2 {
     color: #162a3e;
     text-transform: uppercase;
     margin-bottom: 20px;
-    font-family: serif;
+    font-family: 'Roboto Condensed', sans-serif;
     margin: 0 0 10px 0;
 }
 
 section.faqs h3 {
     font-size: 30px;
     line-height: 35px;
-    font-family: serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
     margin: 0 0 10px 0;
 }
@@ -409,7 +422,7 @@ section.faqs h3 {
 section.faqs p {
     font-size: 20px;
     line-height: 24px;
-    font-family: serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
     margin: 0 0 10px 0;
 }
@@ -451,7 +464,7 @@ section.payment-faq {
     border-radius: 0;
     background: #D61BD3;
     text-transform: uppercase;
-    font-family: serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 600;
 }
 
@@ -473,20 +486,26 @@ section.how-to-play {
     line-height: 24px;
     margin-bottom: 10px;
     color: #162a3e;
-    font-family: serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.play-text {
+    padding: 0 0 15px;
 }
 
 .play-text button.btn {
     margin: 30px 0;
-    font-size: 18px;
-    padding: 8px 20px;
+    font-size: 20px;
+    padding: 8px 14px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .play-text p a {
     color: #424b5a;
     font-weight: 300;
     text-decoration: underline;
-    font-size: 22px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .play-text p a i {
@@ -543,11 +562,123 @@ a#navbarDropdown {
     padding: 0 0px;
 }
 
+.dash.middle-content {
+    padding-top: 45px;
+}
+
 .dropdown-menu.user.show {
     height: unset;
     overflow-x: auto;
     width: 180px;
 }
+
+.spin-money-btn .btn {
+    color: #fff !important;
+    background-color: transparent !important;
+    border-color: #ffffff !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.dash.middle-content p {
+    margin: 0 0 10px;
+}
+
+.dash.middle-content h2 {
+    margin-bottom: 12px;
+}
+
+div#withdrawalmodal .modal-content,
+div#depositmodal .modal-content {
+    background: #593AF0 !important;
+}
+
+
+div#withdrawalmodal .modal-header,
+div#depositmodal .modal-header {
+    background: #F5C628;
+    padding: 40px 60px;
+}
+
+div#withdrawalmodal button.close,
+div#depositmodal button.close {
+    background-color: white;
+    border: 0;
+    position: absolute;
+    right: 0;
+    opacity: 1;
+    padding: 5px 12px;
+    color: #593af0;
+    z-index: 4;
+}
+
+div#withdrawalmodal h5.modal-title,
+div#depositmodal h5.modal-title {
+    font-size: 56px;
+    line-height: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+div#withdrawalmodal p.credit, p.sub-title,
+div#depositmodal p.credit, p.sub-title {
+    font-size: 25px !important;
+    line-height: 29px;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div#withdrawalmodal p.credit,
+div#depositmodal p.credit {
+    color: #fff;
+}
+
+div#withdrawalmodal .modal-body,
+div#depositmodal .modal-body {
+    color: #ffffff;
+    padding: 60px;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div#withdrawalmodal .modal-body p,
+div#depositmodal .modal-body p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div#withdrawalmodal .modal-body p a,
+div#depositmodal .modal-body p a {
+    text-decoration: underline;
+}
+
+div#withdrawalmodal input.btn,
+div#depositmodal input.btn {
+    background: #D61BD3;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 29px;
+    line-height: 34px;
+    font-weight: 700;
+}
+
+div#depositmodal input#deposit_amout {
+    border-radius: 0;
+}
+
+
 
 
 /* promotions */
@@ -647,6 +778,7 @@ input#referralurl {
 .promote i {
     font-size: 38px;
     margin-top: 12px;
+    color: #fff;
 }
 
 .levels p span {
@@ -722,16 +854,75 @@ tr.current-level small {
 
 
 
+/* registermodal */
+
+div#registermodal {}
+
+div#loginmodal .modal-content,
+div#registermodal .modal-content {
+    background: #593AF0;
+}
+
+div#loginmodal button.close,
+div#registermodal button.close {
+    background-color: white;
+    border: 0;
+    position: absolute;
+    right: 0;
+    opacity: 1;
+    padding: 5px 12px;
+    color: #593af0;
+    z-index: 4;
+}
+
+div#loginmodal .modal-body,
+div#registermodal .modal-body {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 300;
+    padding: 60px;
+    color: #fff;
+}
+
+div#loginmodal .heading,
+div#registermodal .heading {
+    text-align: center;
+    font-size: 37px;
+    line-height: 43px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 40px; 
+}
+
+div#loginmodal .form-control,
+div#registermodal .form-control {
+    border-radius: 0px;
+}
+
+div#loginmodal button.btn,
+div#registermodal button.btn {
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+div#loginmodal p,
+div#registermodal p {
+    color: #fff;
+}
+
+div#loginmodal p a,
+div#registermodal p a {
+    text-decoration: underline;
+}
 
 
-
-
-
-
-
-
-
-
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
 
 
@@ -761,10 +952,12 @@ footer .top-text h3 {
 }
 
 .copyright-text p {
+    font-size: 20px;
     color: #fff;
     text-align: center;
     padding: 0;
     margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -796,6 +989,7 @@ a.footer-logo img {
 .footer-menu li a {
     font-size: 18px;
     line-height: 30px;
+    color: #fff;
 }
 
 .footer-menu li a:hover {
@@ -830,14 +1024,67 @@ a.footer-logo img {
 
 
 
+/* responsive */
 
 
 
 
+@media only screen and (max-width: 991px) {
+
+button.navbar-toggler.collapsed {
+    display: inline-block;
+}
+
+.display-none-res,
+.menu-items {
+    display: none;
+}
+
+.responsive-nav ul li a,
+.menu-items ul li a {
+    font-size: 16px;
+}
+.responsive-nav .nav-active a,
+.menu-items .nav-active a {
+    font: Bold 18px Lato;
+}
+
+.responsive-nav ul li {
+    padding: 0 0 8px;
+}
+
+.loged-in-user {
+    text-align: right;
+}
+
+.dropdown.notification.noti-mobile {
+    display: none;
+}
 
 
 
+}
 
+
+@media only screen and (max-width: 767px) {
+
+a.navbar-brand img {
+    width: 120px;
+}
+
+.bar-btns .btn {
+    background: #D61BD3;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 4px 8px;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+
+}
 
 
 

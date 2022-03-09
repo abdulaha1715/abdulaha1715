@@ -19,7 +19,8 @@
         <div class="header-navbar">
             <div class="container">
                 <div class="row item-center-inl">
-                    <div class="col-md-3 display-flex">
+                    <div class="col-lg-3 col-5 display-flex">
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars"></i>  </button>
 
                         <a class="navbar-brand" href="#">
                             <img src="img/logo.png" alt="">
@@ -46,7 +47,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-12 display-none-res">
                         <div class="menu-items">
                             <ul class="">
                                 <li class="nav-active">
@@ -61,7 +62,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-7">
                         <div class="loged-in-user">
                             <ul class="">
                                 <li class="">
@@ -70,7 +71,7 @@
                                 
                                 <!-- Notification dropdown Start -->
                                 <li class="">
-                                    <div class="dropdown notification noti-mobile">
+                                    <div class="dropdown notification">
                                         <i class="fa fa-bell" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i> <span>3</span>
 
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -106,6 +107,23 @@
                             </ul>
                         </div>
                     </div>
+
+                    <!-- responsive menu -->
+                    <div class="col-md-12">
+                        <div class="collapse navbar-collapse responsive-nav" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto centered">
+                                <li class="nav-active">
+                                    <a href="how-to-play.html">How to Play</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  href="faq.html">FAQs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" target="_blank">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -120,15 +138,12 @@
                                 <img src="img/index-center-img.png" alt="">
                             </div>
                             <div class="col-md-7">
-                                <div class="middle-content">
+                                <div class="dash middle-content">
                                     <h2>Play and win <br> cash prizes </h2>
-                                    <!-- <h3>Stop at the right place and win cash prizes</h3> -->
-                                    <p>
-                                        <a href="" class="text-underline text-black">Register now</a> and get<br>
-                                        free spins
-                                    </p>
+                                    <p>Account Bal: <strong>Ksh. 30.00</strong></p>
+                                    <p>Cash: Ksh. 30.00 | Bonus: Ksh. 0.00</p>
+
                                     <div class="bg-full-right">
-                                        <h2>Demo play</h2>
                                         <p>CHOOSE YOUR DEMO STAKE TO PLAY</p>
                                         <div class="input-group">
                                             <div id="radiobtn" class="btn-group">
@@ -139,9 +154,20 @@
                                                 <a class="btn btn-primary btn-sm notActive" data-toggle="fun" data-title="200">200</a>
                                                 <a class="btn btn-primary btn-sm notActive" data-toggle="fun" data-title="250">250</a>
                                             </div>
-                                            <input type="hidden" name="fun" id="fun">
                                         </div>
-                                        <button class="btn btn-primary spinBtn">Play</button>                                
+                                        <div class="spin-btn">
+                                            <button class="btn btn-primary">Click to spin</button>
+                                            
+                                            <button class="btn btn-primary">Predict</button>
+                                        </div>
+
+                                        <div class="spin-money-btn">
+                                            <button class="btn" data-toggle="modal" data-target="#depositmodal">Deposit</button>
+                                            
+                                            <button class="btn" data-toggle="modal" data-target="#withdrawalmodal">Withdrawal</button>
+                                        </div>
+
+                                            
                                     </div>
                                 </div>
                             </div>
@@ -151,23 +177,70 @@
             </div>
         </section>
 
-        <footer class="text-center index-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="top-text">
-                            <h3>Welcome to Jengacash spin game. Spin the lucky wheel and win real money.</h3>
-                        </div>
-                        <div class="copyright-text">
-                            <hr>
-                            <p>© Copyright 2022 LUCKYMATE ENTERTAINMENT. </p>
-                        </div>
+        <!-- withdrawalmodal -->
+        <div class="modal fade" id="withdrawalmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content border-0 rounded-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <div class="modal-header border-0 rounded-0">
+                        <h5 class="modal-title">
+                            Withdraw <br>
+                            to Mpesa
+                        </h5>
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <p class="credit">
+                                <span>Credits: {user_balance}</span>
+                                <img src="img/sort.svg" class="d-inline mx-2">
+                                <span> Kshs.{user_balance}</span>
+                            </p>
+                            <div class="form-group my-4">
+                                <input type="text" class="form-control" id="withdraw_amout" name="withdraw_amout" placeholder="Amount to withdraw">
+                            </div>
+                            <p>Withdrawals left: {left_withdrawals} (up to kshs {level-amount})</p>                            
+                            <input type="submit" class="btn btn-primary btn-block btn-lg my-4" value="Withdraw (Sell credits)">
+                            <p><small> M-pesa withdrawals on Jengacash.com are handled by Zeiya Web Services <a href="faq.html#withdrawals" class="text-white text-underline">learn more</a> </small></p>
+                        </form>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
 
-        
+        <!-- depositmodal -->
+        <div class="modal fade" id="depositmodal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-blue border-0 rounded-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <div class="modal-header border-0 rounded-0 d-block">
+                        <h5 class="modal-title">Buy credits</h5>
+                        <p class="sub-title">Deposit from Mpesa</p>
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <p class="credit">
+                                1 credit : 1 Kshs
+                            </p>
+                            <small>Minimum: 5Kshs, Maximum: 100,000Kshs</small>
+                            <div class="form-group my-4">
+                                <input type="text" class="form-control" id="deposit_amout" name="deposit_amout" placeholder="Amount to deposit">
+                            </div>                                                                                   
+                             <input type="submit" class="btn btn-primary btn-block btn-lg my-4" value="Deposit (Buy credits)">
+                             <p>***If online deposit does not work, go to mpesa, send any amount to Paybill no: 329534 Account: Jengacash</p>
+
+                             <p><small> M-pesa deposits on Jengacash.com are handled by Zeiya Web Services <a href="faq.html#deposits" class="text-white text-underline">learn more</a> </small></p>
+                             
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- javascript files call -->
         <script src="js/jquery-3.6.0.min.js"></script>
