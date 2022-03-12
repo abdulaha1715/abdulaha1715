@@ -19,7 +19,8 @@
         <div class="header-navbar">
             <div class="container">
                 <div class="row item-center-inl">
-                    <div class="col-md-3 display-flex">
+                    <div class="col-lg-3 col-5 display-flex">
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <i class="fa fa-bars"></i>  </button>
 
                         <a class="navbar-brand" href="#">
                             <img src="img/logo.png" alt="">
@@ -46,7 +47,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-12 display-none-res">
                         <div class="menu-items">
                             <ul class="">
                                 <li class="nav-active">
@@ -61,7 +62,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-7">
                         <div class="loged-in-user">
                             <ul class="">
                                 <li class="">
@@ -70,7 +71,7 @@
                                 
                                 <!-- Notification dropdown Start -->
                                 <li class="">
-                                    <div class="dropdown notification noti-mobile">
+                                    <div class="dropdown notification">
                                         <i class="fa fa-bell" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i> <span>3</span>
 
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -94,7 +95,7 @@
 
                                 <li class="dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <img src="img/user.png" class="avatar d-inline mr-2" alt="phone number"> Account
+                                        <img src="img/user.png" class="avatar d-inline mr-2" alt="phone number"> <span>Account</span>
                                     </a>
                                     <div class="dropdown-menu user" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="/">Home</a>
@@ -102,6 +103,23 @@
                                         <div class="dropdown-divider"></div>
                                         <a class="dropdown-item" href="#">Log out</a>
                                     </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- responsive menu -->
+                    <div class="col-md-12">
+                        <div class="collapse navbar-collapse responsive-nav" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto centered">
+                                <li class="nav-active">
+                                    <a href="how-to-play.html">How to Play</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a  href="faq.html">FAQs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" target="_blank">Blog</a>
                                 </li>
                             </ul>
                         </div>
@@ -198,7 +216,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="label-table">
-                            <table class="table">
+                            <table class="table table-responsive">
                               <thead>
                                 <tr>
                                   <th scope="col"></th>

@@ -12,14 +12,12 @@
 2. header
 */
 
-
 /* 1. Theme default css */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap");
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -35,10 +33,10 @@ body {
     transition: all 0.3s ease-out 0s;
 }
 .f-left {
-    float: left
+    float: left;
 }
 .f-right {
-    float: right
+    float: right;
 }
 .fixed {
     position: fixed;
@@ -60,7 +58,7 @@ a:focus,
 a:hover,
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
-    color: #2B96CC;
+    color: #2b96cc;
     text-decoration: none;
 }
 a,
@@ -68,7 +66,13 @@ button {
     color: #1696e7;
     outline: medium none;
 }
-button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0;
+}
 .uppercase {
     text-transform: uppercase;
 }
@@ -106,7 +110,6 @@ p {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 15px;
-
 }
 
 /*
@@ -115,14 +118,13 @@ p {
 
 .clearfix::before,
 .clearfix::after {
-  content: " ";
-  display: table;
+    content: " ";
+    display: table;
 }
 
 .clearfix::after {
-  clear: both;
+    clear: both;
 }
-
 
 /*
   Simple style
@@ -132,7 +134,9 @@ a,
 a:link,
 a:hover,
 a:active,
-a:visited {text-decoration: none;}
+a:visited {
+    text-decoration: none;
+}
 
 p {
     line-height: 28px;
@@ -141,17 +145,17 @@ p {
 }
 
 img {
-  max-width: 100%;
-  width: auto;
+    max-width: 100%;
+    width: auto;
 }
 
-ul, ol, li {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
-
-
 
 /* 2. Header */
 
@@ -200,16 +204,18 @@ button.navbar-toggler {
     font: Bold 19px Lato;
 }
 
-.bar-btns {}
+.bar-btns {
+}
 
 .bar-btns .btn {
     display: inline-block;
 }
 
-a.nav-link.btn.btn-primary.login-btn {}
+a.nav-link.btn.btn-primary.login-btn {
+}
 
 .bar-btns .btn {
-    background: #D61BD3;
+    background: #d61bd3;
     border: 2px solid transparent;
     border-radius: 0;
     text-transform: uppercase;
@@ -217,7 +223,7 @@ a.nav-link.btn.btn-primary.login-btn {}
     padding: 8px 12px;
     outline: none;
     margin-left: 5px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .bar-btns .btn i {
@@ -240,7 +246,7 @@ section.wel-content-ind {
     font-size: 37px;
     font-weight: 700;
     line-height: 43px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
 }
 
@@ -250,7 +256,7 @@ section.wel-content-ind {
     line-height: 46px;
     color: #162a3e;
     margin: 10px 0 20px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .middle-content p a {
@@ -261,7 +267,7 @@ section.wel-content-ind {
 
 .bg-full-right {
     color: #fff;
-    background: #593AF0;
+    background: #593af0;
     padding: 40px 20px;
 }
 
@@ -274,20 +280,20 @@ section.wel-content-ind {
     font-size: 22px;
     color: #fff;
     font-weight: 500;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .bg-full-right .btn-group a {
-    background: #D61BD3;
+    background: #d61bd3;
     margin: 0 !important;
     padding: 6px 12px;
-    border: 1px solid #D61BD3;
+    border: 1px solid #d61bd3;
     border-radius: 0 !important;
 }
 
 .btn-group .btn-primary:hover,
 .btn-primary:not(:disabled):not(.disabled).active,
-.btn-primary:not(:disabled):not(.disabled):active{
+.btn-primary:not(:disabled):not(.disabled):active {
     background-color: #e524e2;
     border-color: #e524e2;
 }
@@ -301,7 +307,7 @@ a.btn.btn-primary.btn-sm {
 }
 
 button.btn.btn-primary {
-    background: #D61BD3;
+    background: #d61bd3;
     border-radius: 0;
     font-size: 16px;
     text-transform: uppercase;
@@ -309,18 +315,17 @@ button.btn.btn-primary {
     border: 1px solid transparent;
 }
 
-
 /* page head */
 
 .page-head {
     color: #fff;
-    background: #593AF0;
+    background: #593af0;
     /*padding: 105px 0;*/
     height: 250px;
 }
 
 .page-head h2 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 37px;
     line-height: 43px;
     font-weight: 600;
@@ -345,7 +350,7 @@ button.btn.btn-primary {
     line-height: 43px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .contact-content p {
@@ -353,7 +358,7 @@ button.btn.btn-primary {
     font-size: 20px;
     line-height: 24px;
     font-weight: 300;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     margin-bottom: 20px;
 }
 
@@ -368,23 +373,24 @@ button.btn.btn-primary {
 }
 
 .contact-content li a i {
-    color: #593AF0;
+    color: #593af0;
     margin-right: 5px;
 }
 
-.contact-form {}
+.contact-form {
+}
 
 .contact-form .form-control {
     border-radius: 0;
 }
 
 .contact-form input.btn {
-    background: #D61BD3;
+    background: #d61bd3;
     outline: none;
     border: 2px solid transparent;
     border-radius: 0;
     text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .contact-form input.btn:hover {
@@ -392,14 +398,13 @@ button.btn.btn-primary {
     background: #e350e1;
 }
 
-
 /* faq */
 
 section.faqs {
     padding: 80px 0;
 }
 
-.play-text h2, 
+.play-text h2,
 section.faqs h2 {
     font-size: 37px;
     line-height: 43px;
@@ -407,14 +412,14 @@ section.faqs h2 {
     color: #162a3e;
     text-transform: uppercase;
     margin-bottom: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     margin: 0 0 10px 0;
 }
 
 section.faqs h3 {
     font-size: 30px;
     line-height: 35px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 300;
     margin: 0 0 10px 0;
 }
@@ -422,7 +427,7 @@ section.faqs h3 {
 section.faqs p {
     font-size: 20px;
     line-height: 24px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 300;
     margin: 0 0 10px 0;
 }
@@ -433,7 +438,7 @@ section.faqs .faq {
 }
 
 section.payment-faq {
-    background: #593AF0;
+    background: #593af0;
 }
 
 .payment-text-btn {
@@ -462,12 +467,11 @@ section.payment-faq {
     padding: 8px 65px;
     border: 2px solid transparent;
     border-radius: 0;
-    background: #D61BD3;
+    background: #d61bd3;
     text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 600;
 }
-
 
 /* how to play */
 
@@ -479,14 +483,16 @@ section.how-to-play {
     margin-top: 20px;
 }
 
-.play-text li span {font-weight: 700;}
+.play-text li span {
+    font-weight: 700;
+}
 
 .play-text li {
     font-size: 20px;
     line-height: 24px;
     margin-bottom: 10px;
     color: #162a3e;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .play-text {
@@ -497,7 +503,7 @@ section.how-to-play {
     margin: 30px 0;
     font-size: 20px;
     padding: 8px 14px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .play-text p a {
@@ -505,13 +511,12 @@ section.how-to-play {
     font-weight: 300;
     text-decoration: underline;
     font-size: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .play-text p a i {
     padding: 0 10px;
 }
-
 
 /* dashboard */
 
@@ -543,7 +548,8 @@ p.notification-item {
 .loged-in-user {
 }
 
-.loged-in-user ul {}
+.loged-in-user ul {
+}
 
 .loged-in-user ul li {
     display: inline-block;
@@ -597,13 +603,12 @@ a#navbarDropdown {
 
 div#withdrawalmodal .modal-content,
 div#depositmodal .modal-content {
-    background: #593AF0 !important;
+    background: #593af0 !important;
 }
-
 
 div#withdrawalmodal .modal-header,
 div#depositmodal .modal-header {
-    background: #F5C628;
+    background: #f5c628;
     padding: 40px 60px;
 }
 
@@ -625,16 +630,17 @@ div#depositmodal h5.modal-title {
     line-height: 50px;
     font-weight: 500;
     text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
-
-div#withdrawalmodal p.credit, p.sub-title,
-div#depositmodal p.credit, p.sub-title {
+div#withdrawalmodal p.credit,
+p.sub-title,
+div#depositmodal p.credit,
+p.sub-title {
     font-size: 25px !important;
     line-height: 29px;
     font-weight: 300;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 div#withdrawalmodal p.credit,
@@ -648,7 +654,7 @@ div#depositmodal .modal-body {
     padding: 60px;
     font-size: 15px;
     line-height: 18px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 div#withdrawalmodal .modal-body p,
@@ -656,7 +662,7 @@ div#depositmodal .modal-body p {
     color: #ffffff;
     font-size: 15px;
     line-height: 18px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 div#withdrawalmodal .modal-body p a,
@@ -666,7 +672,7 @@ div#depositmodal .modal-body p a {
 
 div#withdrawalmodal input.btn,
 div#depositmodal input.btn {
-    background: #D61BD3;
+    background: #d61bd3;
     border-radius: 0;
     text-transform: uppercase;
     font-size: 29px;
@@ -677,9 +683,6 @@ div#depositmodal input.btn {
 div#depositmodal input#deposit_amout {
     border-radius: 0;
 }
-
-
-
 
 /* promotions */
 
@@ -698,7 +701,7 @@ section.referral-stat {
     font-size: 30px;
     line-height: 35px;
     font-weight: 300;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .start-box h3 span {
@@ -710,7 +713,7 @@ section.referral-stat {
     line-height: 24px;
     color: #162a3e;
     font-weight: 300;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 section.promotion-main-content {
@@ -732,7 +735,8 @@ section.promotion-main-content {
     font-size: 21px;
 }
 
-.referral {}
+.referral {
+}
 
 .referral-stat h2,
 .levels h2,
@@ -743,7 +747,7 @@ section.promotion-main-content {
     color: #162a3e;
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .copy-referral-code h3,
@@ -752,7 +756,7 @@ section.promotion-main-content {
     line-height: 35px;
     font-weight: 300;
     margin-bottom: 8px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .levels p,
@@ -761,11 +765,11 @@ section.promotion-main-content {
     font-size: 20px;
     line-height: 24px;
     font-weight: 300;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .copy-referral-code {
-    background: #593AF0;
+    background: #593af0;
     padding: 15px 20px;
     margin-bottom: 20px;
 }
@@ -787,10 +791,11 @@ input#referralurl {
 
 button.btn.bg-white {
     font-size: 28px;
-    color: #D61BD3;
+    color: #d61bd3;
 }
 
-.label-table {}
+.label-table {
+}
 
 .label-table th {
     font-size: 16px;
@@ -804,16 +809,15 @@ button.btn.bg-white {
 .label-table .table {
     border-collapse: separate;
     border-spacing: 0 15px;
-
 }
 
 .label-table .table tr {
     font-size: 18px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .label-table .table thead tr {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .label-table .table th {
@@ -845,22 +849,21 @@ button.btn.bg-white {
 }
 
 .label-table .table tr.current-level td:first-child {
-    background: #FFC107 !important;
+    background: #ffc107 !important;
 }
 
 tr.current-level small {
     display: block;
 }
 
-
-
 /* registermodal */
 
-div#registermodal {}
+div#registermodal {
+}
 
 div#loginmodal .modal-content,
 div#registermodal .modal-content {
-    background: #593AF0;
+    background: #593af0;
 }
 
 div#loginmodal button.close,
@@ -889,11 +892,11 @@ div#registermodal .heading {
     text-align: center;
     font-size: 37px;
     line-height: 43px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 900;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 div#loginmodal .form-control,
@@ -918,18 +921,10 @@ div#registermodal p a {
     text-decoration: underline;
 }
 
-
 .modal-open .modal {
     overflow-x: hidden;
     overflow-y: auto;
 }
-
-
-
-
-
-
-
 
 /* index footer  */
 
@@ -945,7 +940,8 @@ footer .top-text h3 {
     font-weight: 700;
 }
 
-.copyright-text {}
+.copyright-text {
+}
 
 .copyright-text hr {
     border-color: #fff;
@@ -957,16 +953,14 @@ footer .top-text h3 {
     text-align: center;
     padding: 0;
     margin: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
-
-
 
 /* full site footer */
 
 footer.full-site-c-footer {
     color: #fff;
-    background: #593AF0;
+    background: #593af0;
     padding: 40px 0 20px;
 }
 
@@ -993,10 +987,11 @@ a.footer-logo img {
 }
 
 .footer-menu li a:hover {
-    color: #D61BD3;    
+    color: #d61bd3;
 }
 
-.footer-social-menu {}
+.footer-social-menu {
+}
 
 .footer-social-menu h3 {
     font-size: 18px;
@@ -1017,78 +1012,99 @@ a.footer-logo img {
     color: #ed2cea;
 }
 
-
-
-
-
-
-
-
 /* responsive */
 
+@media only screen and (max-width: 1324px) {
+    section.wel-content-ind {
+        height: unset !important;
+    }
+}
 
-
+@media only screen and (max-width: 1024px) {
+    section.wel-content-ind {
+        height: unset !important;
+    }
+}
 
 @media only screen and (max-width: 991px) {
+    button.navbar-toggler.collapsed {
+        display: inline-block;
+    }
 
-button.navbar-toggler.collapsed {
-    display: inline-block;
+    .display-none-res,
+    .menu-items {
+        display: none;
+    }
+
+    .responsive-nav ul li a,
+    .menu-items ul li a {
+        font-size: 16px;
+    }
+    .responsive-nav .nav-active a,
+    .menu-items .nav-active a {
+        font: Bold 18px Lato;
+    }
+
+    .responsive-nav ul li {
+        padding: 0 0 8px;
+    }
+
+    .loged-in-user {
+        text-align: right;
+        padding-right: 12px;
+    }
+
+    .dropdown.notification.noti-mobile {
+        display: none;
+    }
 }
-
-.display-none-res,
-.menu-items {
-    display: none;
-}
-
-.responsive-nav ul li a,
-.menu-items ul li a {
-    font-size: 16px;
-}
-.responsive-nav .nav-active a,
-.menu-items .nav-active a {
-    font: Bold 18px Lato;
-}
-
-.responsive-nav ul li {
-    padding: 0 0 8px;
-}
-
-.loged-in-user {
-    text-align: right;
-}
-
-.dropdown.notification.noti-mobile {
-    display: none;
-}
-
-
-
-}
-
 
 @media only screen and (max-width: 767px) {
+    .loged-in-user ul li a.label-link {
+        font-size: 16px;
+    }
 
-a.navbar-brand img {
-    width: 120px;
+    a.navbar-brand img {
+        width: 120px;
+    }
+
+    .bar-btns .btn {
+        background: #d61bd3;
+        border: 1px solid transparent;
+        border-radius: 0;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 4px 8px;
+        outline: none;
+        margin-bottom: 5px;
+    }
+
+    a#navbarDropdown span {
+        display: none;
+    }
+
+    a#navbarDropdown {
+        width: 22px;
+    }
+
+    .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: -4px;
+        vertical-align: 0;
+    }
+
+    .copy-referral-code h3,
+    .referral h3 {
+        font-size: 24px;
+    }
+
+    .left-svg-img {
+        height: 0;
+    }
+
+    div#loginmodal button.btn,
+    div#registermodal button.btn {
+        font-size: 21px;
+        line-height: 27px;
+    }
 }
-
-.bar-btns .btn {
-    background: #D61BD3;
-    border: 1px solid transparent;
-    border-radius: 0;
-    text-transform: uppercase;
-    font-size: 12px;
-    padding: 4px 8px;
-    outline: none;
-    margin-bottom: 5px;
-}
-
-
-}
-
-
-
-
-
-
-
