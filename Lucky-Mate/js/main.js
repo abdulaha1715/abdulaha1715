@@ -1,6 +1,19 @@
 (function ($) {
 	"use strict";
 
+      $(document).ready(function(){
+        
+        $("#openregistermodal").click(function(){
+          $('#registermodal').modal('show');
+           $('#loginmodal').modal('hide');
+        });
+        
+        $("#openlogin").click(function(){
+          $('#loginmodal').modal('show');
+           $('#registermodal').modal('hide');
+        });
+        
+      });
     
 	
 }(jQuery));	
