@@ -236,6 +236,24 @@ a.nav-link.btn.btn-primary.login-btn {
 }
 
 .dropdown.notification {
+    position: relative;
+}
+
+.dropdown.notification span {
+    position: absolute;
+    display: block;
+    background: #ffff00;
+    text-align: center;
+    border-radius: 50%;
+    top: -5px;
+    right: -8px;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.dropdown.notification {
     cursor: pointer;
 }
 
@@ -564,6 +582,7 @@ p.notification-item {
     display: inline-block;
     padding: 0 6px;
     align-items: center;
+    line-height: 28px;
 }
 
 .loged-in-user ul li a.label-link {
@@ -1118,24 +1137,6 @@ a.footer-logo img {
     div#registermodal button.btn {
         font-size: 21px;
         line-height: 27px;
-    }
-
-    .dropdown.notification {
-        position: relative;
-    }
-
-    .dropdown.notification span {
-        position: absolute;
-        display: block;
-        background: #ffff00;
-        text-align: center;
-        border-radius: 50%;
-        top: -5px;
-        right: -8px;
-        width: 18px;
-        height: 18px;
-        line-height: 18px;
-        font-size: 14px;
     }
     
 }
