@@ -1,0 +1,430 @@
+/**
+ *
+ * Project Name: Find Place;
+ * Author: Abdulaha Islam;
+ * Version: 1.0.1;
+ * Company: Abnipes Network;
+ * Descriptions: Find Place is an html5 responsive property listing template;
+ *
+ *
+ *
+ **************
+ * Table of Content
+ **************
+ *
+ * 01.
+ *
+ *
+ *
+ * 
+ */
+
+/* Default css */
+body {}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Variables */
+:root {
+    --primary: #f15724;
+    --secondary: #202b31;
+    --gray: #585858;
+    --graybg: #f7f7f6;
+    --white: #ffffff;
+    --montserrat: "Montserrat";
+    --mont: "Mont Heavy DEMO";
+    --bebas: "Bebas Neue";
+}
+
+/* Styles goes here */
+
+
+/* header style 1 */
+
+header.main-header {
+    background: #fff;
+    padding: 20px 0;
+}
+
+header.main-header .logo h2 {
+    font-size: 28px;
+    font-family: revert;
+}
+
+header.main-header .header-menu {
+    text-align: center;
+}
+
+header.main-header .header-menu ul {}
+
+header.main-header .header-menu ul li {
+    display: inline-block;
+    position: relative;
+    padding: 0 12px;
+}
+
+header.main-header .header-menu ul li ul {
+    position: absolute;
+    top: 180px;
+    left: -50%;
+    transform: translate(15%, 0);
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    width: 160px;
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+
+header.main-header .header-menu ul li ul li {
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+header.main-header .header-menu ul li:hover ul {
+    top: 30px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 3;
+}
+
+header.main-header .header-menu ul li a {
+    color: #64DDBA;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+header.main-header .links {
+    text-align: right;
+}
+
+header.main-header .links ul {}
+
+header.main-header .links ul li {
+    display: inline-block;
+    padding: 0 0 0 15px;
+}
+
+header.main-header .links ul li a {
+    font-size: 18px;
+    color: #252525;
+}
+
+
+/* header style 2 */
+
+header.main-header.style-2 {}
+
+header.main-header.style-2 .header-menu {
+    position: fixed;
+    top: 0;
+    right: -360px;
+    background: #ddd;
+    width: 300px;
+    height: 100%;
+    padding: 65px 0 0 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+header.main-header.style-2 .header-menu ul {
+    text-align: left;
+}
+
+header.main-header.style-2 .header-menu ul li {
+    display: block;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+header.main-header.style-2 .header-menu ul li ul {
+    position: relative;
+    top: 0;
+    left: 0 !important;
+    visibility: visible;
+    opacity: 1;
+    background: transparent;
+    text-align: left;
+}
+
+header.main-header.style-2 .links ul li {
+    position: relative;
+    padding: 10px 0 0 18px;
+}
+
+header.main-header.style-2 .links ul li .menu-icon {
+    position: relative;
+    top: -4px;
+    right: 0;
+    width: 35px;
+    height: 12px;
+    padding: 0;
+
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+header.main-header.style-2 .links ul li .menu-icon span {
+    width: 100%;
+    height: 3px;
+    display: block;
+    background: #222;
+    margin: 6px 0;
+    transition: 0.5s;
+}
+
+header.main-header.style-2 .sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background: #262626;
+    transition: 0.5s;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header.main-header.style-2 .sidebar.active {
+    right: 0;
+}
+
+header.main-header.style-2 .sidebar .menu {
+    margin: 0;
+    padding: 40px 0;
+}
+
+header.main-header.style-2 .sidebar .menu li {
+    list-style: none;
+}
+
+header.main-header.style-2 .sidebar .menu li a {
+    display: block;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header.main-header.style-2 .sidebar .menu li a:hover {
+    background: #fc2827;
+    color: #fff;
+}
+
+
+header.main-header.style-2 .menu-icon.active span {
+    position: absolute;
+    width: calc(100% - 16px);
+    top: calc(0% - 0px);
+}
+
+header.main-header.style-2 .menu-icon.active span:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+header.main-header.style-2 .menu-icon.active span:nth-child(2) {
+    display: none;
+}
+
+header.main-header.style-2 .menu-icon.active span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+header.main-header.style-2 .social-icon {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+header.main-header.style-2 .social-icon li {
+    width: 20%;
+    text-align: center;
+    list-style: none;
+}
+
+header.main-header.style-2 .social-icon li a {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
+header.main-header.style-2 .social-icon li a:hover {
+    background: #fc2827;
+    border: 1px solid #fc2827;
+}
+
+
+/* height */
+
+.height {
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer-about {}
+
+.footer-about .logo {}
+
+.footer-about .logo h2 {
+    font-size: 24px;
+}
+
+.footer-about p {
+    margin: 0;
+    font-size: 18px;
+    padding: 20px 20px 20px 0;
+}
+
+.footer-about span.number {
+    display: block;
+}
+
+.footer-about span.number a {
+
+    color: #222;
+}
+
+.footer-about span.email {}
+
+.footer-about span.email a {
+    color: #64DDBA;
+}
+
+h4.footer-title {
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.footer-widget {
+    margin-bottom: 30px;
+}
+
+.footer-widget ul {}
+
+.footer-widget ul li {
+    padding-bottom: 10px;
+}
+
+.footer-widget ul li a {
+    color: #222;
+    text-transform: capitalize;
+}
+
+.footer-newsletter-widget {}
+
+.footer-newsletter {
+    margin-bottom: 15px;
+}
+
+.footer-newsletter-widget ul.social-icon {
+    margin-top: 12px !IMPORTANT;
+}
+
+.footer-newsletter-widget ul.social-icon li {
+    display: inline-block;
+}
+
+.footer-newsletter-widget ul.social-icon li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #F8F8F8;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.footer-newsletter form {
+    position: relative;
+}
+
+.footer-newsletter input[type="email"] {
+    margin: 0;
+    padding-right: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+textarea {
+    background-color: #F8F8F8;
+    border: 1px solid #F8F8F8;
+    outline: none;
+    height: 50px;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #222;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 0;
+    padding-right: 40px;
+}
+
+.footer-newsletter .btn-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.footer-newsletter .btn-wrapper .btn {
+    padding: 0 18px;
+    height: 100%;
+}
+
+.copyright {
+    border-top: 1px solid #F8F8F8;
+    padding: 19px 0;
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-size: 14px;
+}
+
+.copyright .logo {
+    text-align: right;
+}
+
+.copyright .logo h4 {
+    font-size: 21px;
+}
