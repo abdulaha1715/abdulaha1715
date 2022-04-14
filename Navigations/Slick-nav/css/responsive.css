@@ -1,0 +1,103 @@
+/* Media Layout:1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+.header-top-area{
+	font-size: 13px;
+}
+.single-slide-item h2{
+	font-size:50px;
+}
+
+}
+/* Tablet Layout:768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.header-top-area, .header-top-area .text-right, .logo, .main-menu ul {
+	text-align: center;
+}
+.main-menu ul li a {
+	padding: 10px 20px;
+}
+.main-menu li ul {
+	top: 80px;
+}
+.main-menu li:hover ul{
+	top: 48px;
+}
+
+
+
+}
+/* Moblie Layout:320px. */
+@media only screen and (max-width: 767px) {
+
+.header-top-area, .header-top-area .text-right, .single-slide-item, .factorian-ctn-area, .factorian-btn-area .text-right {
+	text-align: center;
+}
+.header-top-area{
+	font-size:12px;
+}
+.main-menu{
+	display: none;
+}
+.single-slide-item h2{
+	font-size: 30px;
+}
+.single-slide-item{
+	font-size: 15px;
+}
+.logo {
+	text-align:left;
+}
+.responsive-menu-wrap {
+	display: block;
+	margin-top: -16px;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+}
+.main-menu-area {
+	position:relative;
+	z-index: 9;
+}
+.responsive-menu-wrap .slicknav_menu {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	margin: 0;
+	padding: 0;
+}
+.slicknav_btn {
+	margin: 0;
+}
+.slicknav_nav {
+	background: #333 none repeat scroll 0 0;
+	border-radius: 2px;
+	width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Wide Moblie Layout:480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  
+	
+}
+
+
+
+
+
+
+
+
+
+
+

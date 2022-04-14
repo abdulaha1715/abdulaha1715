@@ -1,0 +1,179 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 28px;
+  
+}
+
+/* =======GENERAL STYLE START======= */
+
+a, a:hover, a:focus, .btn:focus {
+    text-decoration: none;
+    outline: none;
+	color: ;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    margin: 0 0 30px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+/* =======GENERAL STYLE END======= */
+
+
+/* ======= START======= */
+/* ======= END======= */
+
+.slide-bg-1{
+	background-image: url(../img/slider-bg-1.jpg);
+}
+
+
+
+.header-top-area a,.header-top-area{
+	color:#fff;
+}
+.header-top-area i.fa{
+	color:#F8C04B;
+}
+.header-top-area{
+	background:#000;
+	font-size: 14px;
+	padding: 5px 0;
+}
+.header-top-area .padding-10{
+	padding:10px;
+}
+.sepator{
+	color: #939393;
+	display: inline-block;
+	padding: 10px;
+}
+.main-menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:right;
+}
+.main-menu li{
+	position:relative;
+	display:inline-block;
+}
+.main-menu li ul{
+	position:absolute;
+	left: 0;
+	top: 108px;
+	width: 200px;
+	background: #fff;
+	z-index: 99;
+	text-align: left;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
+	transition: .3s;
+}
+.main-menu li:hover ul{
+	opacity: 1;
+	visibility: visible;
+	z-index: 99;
+	top: 88px;
+}
+.responsive-menu-wrap{
+	display: none;
+}
+.main-menu li ul li {
+	display:block;
+}
+.main-menu li ul li a{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform:none;
+}
+.main-menu li a{
+	display:block;
+	color:#222;
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:14px;
+	padding: 30px 20px;
+}
+.main-menu li:hover{
+	background:#939393;
+}
+.logo a{
+	color:#817F80; 
+}
+.logo{
+	text-transform:uppercase;
+	padding:12px 0;
+}
+.logo h1{
+	margin:5px 0;
+	font-size:16px;
+	display:inline-block;
+	border:3px solid #202020;
+	padding:10px 20px;
+}
+
+.single-slide-item{
+	background-size:cover;
+	background-position:center;
+	background-color:#ddd;
+	height:590px;
+	font-size:24px;
+	color:#fff;
+}
+.single-slide-item h2{
+	font-size:60px;
+	margin:0 0 30px;
+}
+.slide-item-table{
+	display:table;
+	width:100%;
+	height:100%;
+	
+}
+.slide-item-tablecell{
+	display:table-cell;
+	vertical-align:middle;
+}
+.factorian-btn {
+	display:inline-block;
+	background:#F8C04B;
+	color:#fff;
+	padding:12px 20px;
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:14px;
+	margin-top:20px;
+    border-radius: 3px;
+}
+.margin-13{
+	margin:-13px;
+}
